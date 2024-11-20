@@ -1,10 +1,10 @@
 [project]
 name = "stylecolor"
-version = "1.0.2"
+version = "1.0.4"
 authors = [
   { name="Clovis P", email="clovisp.pypi@gmail.com" },
 ]
-description = "the simplest package to apply style and color in terminal"
+description = "The simplest package to apply style and color in terminal"
 readme = "README.md"
 requires-python = ">=3.2"
 classifiers = [
@@ -13,7 +13,10 @@ classifiers = [
     "Operating System :: OS Independent",
     'Topic :: Utilities',
     'Topic :: System :: Shells',
-    'Topic :: Text Editors :: Text Processing',
+    'Topic :: Text Processing',
     'Environment :: Console',
 ]
-keywords = ["style", "color", "ANSI", "shell", "terminal", "text"]
+keywords = ["style", "color", "ANSI", "shell", "terminal", "text", "colorama", "termcolor"]
+
+[project.urls]
+Homepage = "https://github.com/CloClo0/stylecolor"

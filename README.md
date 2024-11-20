@@ -19,6 +19,9 @@ Use `reactivate()` to reactivate the styling.
 I recommend importing `stylecolor` as `sc` or `st`.\
 Additionally, if you are debugging, I suggest importing the `rprint()` function like this: `from stylecolor import rprint()`
 
+More, source code is available on [Stylecolor's](https://github.com/CloClo0/stylecolor) GitHub page
+
+
 ## Coloring
 8 colors are available natively: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, and `white`.  
 For each color, there are functions (e.g. `stylecolor.red()`), as well as constants (e.g. `stylecolor.RED`).  
